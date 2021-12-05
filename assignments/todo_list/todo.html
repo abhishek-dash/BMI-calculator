@@ -1,9 +1,44 @@
 <html>
     <head>
         <title>Todo List</title>
+        <style>
+            p{
+                font-weight: bold;
+                font-size: 26px;
+                margin: 13px 37px;
+                border: 2px solid;
+                text-align: center;
+                padding: 7px;
+                cursor: pointer;
+            }
+            input{
+                width: 286px;
+                height: 43px;
+                border: 2px solid;
+                font-size: 15px;
+                box-shadow: 2px 4px 11px;
+            }
+            button{
+                width: 116px;
+                height: 30px;
+                margin-top: 11px;
+                color: white;
+                background-color: black;
+                border: none;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+            .content{
+                margin: 113px 565px;
+            }
+            .todos{
+                margin-left: -38px;
+            }
+        </style>
     </head>
     <body>
-        <div>
+        <div class="content">
             <input type='text' name='todo_input'>
             <button type='submit'>Add Todo</button>
             <div class='todos'></div>
