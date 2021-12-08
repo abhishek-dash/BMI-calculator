@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 23px;
+}
+.list-icon{
+    font-size: 18px;
+}
+.result{
+    display: flex;
+    margin-left: 38px;
+}
+p{
+    font-weight: bold;
+    border: 2px solid; 
+    text-align: center;
+    padding: 12px 0;
+    margin-right: 64px;
+    color: white;
+    cursor: pointer;
+}
+.header_section{
+    margin: 50px auto;
+    padding: 8px 2px;
+    width: 464px;
+    border: 1px solid;
+    background-color: darkgray;
+    box-shadow: 2px 6px 14px;
+    padding-bottom: 36px;
+}
+button{
+    margin: 2px 16px;
+    padding: 11px 11px;
+    border:none;
+    border-radius: 7px;
+    box-shadow: 2px 2px 7px;
+    cursor: pointer;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bolder;
+}
+.all_todos{
+    margin-left: 70px;
+}
+.completed_todos{
+    background-color: green;
+}
+.pending_todos{
+    background-color: yellow;
+}
